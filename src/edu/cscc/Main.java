@@ -1,5 +1,5 @@
 package edu.cscc;
-BAD CODE
+BAD CODE;
 import java.util.Arrays;
 import java.util.Comparator;
 
