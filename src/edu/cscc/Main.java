@@ -1,5 +1,5 @@
 package edu.cscc;
-
+BAD CODE
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -48,7 +48,7 @@ public class Main {
             public int compare(Student s1,Student s2) {
                 Double gpa1 = s1.getGpa();
                 Double gpa2 = s2.getGpa();
-                return gpa1.compareTo(gpa2);
+                return gpa2.compareTo(gpa1);
             }
         });
         printStudentList("Students Sorted By GPA",students);
